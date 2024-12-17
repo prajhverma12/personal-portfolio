@@ -194,80 +194,84 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg",
-    role: "Staff Software  Engineer",
-    company: "Deloitte",
-    date: "Apr 2022 - Aug 2024",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg",
+    role: "IT Analyst",
+    company: "Tata Consultancy Services Pvt. Ltd.",
+    date: "Jun 2022 - Dec 2023",
     desc: `
-      ● Built a high-efficiency solution for pharmaceutical trials, using ReactJS, NodeJS, Serverless, REST API, JavaScript, PostgreSQL, 
-      and AWS, which reduced trial efforts by 50% and cut processing time by 40%, earning the Applause Award.
-      ● Integrated end-to-end courier logistics, using NodeJS, Serverless, and AWS, significantly enhancing delivery reliability 
-      and decreasing shipping errors by up to 25%.
-      ● Deployed open-source Apache Superset for data visualization using Python, saving $15,000 annually in software 
-      licensing costs and resulting in substantial improvements in key performance metrics.
+      ● Led the EOS API Systems Data team as a Technical Lead at MetLife Digital Client, responsible for enhancing data retrieval 
+      efficiency from APIs using HBase and SOLR which resulted in faster data retrieval speed by approximately 10s.
+      ● Leveraged Azure DevOps tools to streamline development workflow, reducing deployment time by 30%, enhancing team 
+      collaboration and system efficiency.
+      ● Collaborated closely with cross-functional teams, including architects, business analysts, and product owners, to ensure more than 10 
+      successful deliveries of high-quality solutions.
+      ● Mentored and guided a team of 5 members, fostering their professional growth and ensuring adherence to coding standards and best 
+      practices.
     `,
     skills: [
-      "ReactJS",
-      "NextJS",
-      "JavaScript",
-      "TypeScript",
-      "Redux Toolkit",
-      "HTML",
-      "CSS",
-      "Jest",
-      "NodeJS",
-      "PostgreSQL",
-      "Serverless",
+      "REST API",
+      "Azure DevOps",
+      "Agile",
+      "API Development",
+      "Big Data",
+      "Software Development Life Cycle (SDLC)",
+      "Java",
+      "Springboot",
+      "HBase",
+      "SOLR",
       "Kubernetes",
-      "AWS",
     ],
   },
   {
     id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/commons/0/04/Datamatics_Logo.svg",
+    img: "https://fontmeme.com/images/hsbc-old-logo.png",
     role: "Software Engineer",
-    company: "Datamatics",
-    date: "Mar 2021 - Mar 2022",
-    desc: `● Created backend functionalities using Node.js, Express.js, and AWS to improve system reliability and handle a daily 
-user base of 50,000 active users.
-● Enhanced system scalability using AWS, which increased system efficiency by 2x and allowed seamless performance 
-during peak loads.
-● Developed a dashboard using React, Node.js, and JavaScript to automate agent onboarding, reducing the process 
-time from 1 hour to under 10 minutes, significantly increasing efficiency and supporting network expansion.`,
+    company: "HSBC Software Developemt India Pvt. Ltd.",
+    date: "Jul 2019 - May 2022",
+    desc: `
+    ● Developed more than 20 cross-platform Spring Boot APIs for serviceability with different back-end components to build end-to-end 
+    products for digital origination journey of unsecured lending products like cards, loans, and account opening to Asia Pacific market.
+    ● Designed REST API for scalable products using DevOps as standard and Agile methodology reducing 50% of downtime.
+    ● Successfully migrated Spring Boot APIs and back-end components to AWS and Kubernetes, resulting in a 30% improvement in 
+    system performance and scalability.
+    ● Created a proof-of-concept prototype API for data operators from AWS Dynamo DB, reducing data processing time by 25%.
+    `,
     skills: [
-      "ReactJS",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Jest",
-      "NodeJS",
-      "MySQL",
-      "ExpressJS",
+      "Springboot",
+      "Software Development Lifecycle (SDLC)",
       "AWS",
+      "REST API",
+      "Kubernetes",
+      "Agile",
       "Docker",
+      "MongoDB",
+      "Amazon DynamoDB",
+      "Jenkins",
       "Git",
+      "Splunk",
+      "AppDynamics",
     ],
   },
   {
     id: 3,
     img: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Hexagon_AB_Logo_Color.svg",
-    role: "Software Engineer",
-    company: "Hexagon Global",
+    role: "Intern",
+    company: "Rcpl India Pvt. Ltd.",
     date: "Aug 2019 - Mar 2021",
-    desc: `● Created a Report Designer feature using Java and MySQL, simplifying the report creation process and reducing the 
-time from 2-3 hours to under 30 minutes, resulting in enhanced efficiency and improved workflow.
-● Implemented ETL processes using Java for data integration and transformation, enhancing data processing efficiency 
-by 25%.
-● Troubleshot and debugged back-end issues in Java-based systems, optimizing MySQL queries to reduce system 
-downtime by 40% and improve database performance.`,
+    desc: `
+    ● Contributed as a Lab Trainer, acquiring valuable experience in Core Java and Android and administered training sessions for more than 
+    60 students, facilitating understanding of essential coding concepts.
+    ● Teamed up with the web development team to enhance the company's website functionality, leading to a 20% increase in overall 
+    user experience.
+`,
     skills: [
-      "Java",
-      "JavaScript",
-      "MySQL",
-      "Spring Boot",
-      "HTML5",
-      "CSS3",
-      "Material Ui",
+      "Core Java",
+      "Web Developement",
+      "Android Development",
+      "J2EE Web Srvices",
+      "Oracle Database",
+      "Javascrit",
+      "HTML",
     ],
   },
 ];
@@ -275,21 +279,21 @@ downtime by 40% and improve database performance.`,
 export const education = [
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/en/a/a1/Arizona_State_University_seal.svg",
-    school: "Arizona State University, Arizona",
-    date: "Aug 2024 - May 2026",
+    img: "https://cdn.freelogovectors.net/wp-content/uploads/2021/04/university_of_illinois_at_springfield_logo-freelogovectors.net_.png",
+    school: "University of Illinois, Springfield",
+    date: "Jan 2024 - May 2025",
     gpa: "4.00 GPA",
-    desc: "Currently pursuing a Master of Science in Data Science, Analytics, and Engineering with a focus on machine learning, data analysis, and scalable systems.",
-    degree: "Master of Science, Data Science, Analytics, and Engineering",
+    desc: "Currently pursuing a Master of Science in Managemnt Information System with a focus on machine learning, data analysis, and Business Analytics.",
+    degree: "Master of Science, Management Information System",
   },  
   {
     id: 1,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Qkv-Yt0a2nG8aeuyLSRP3Ps5Jqyk3P14YA&s",
-    school: "Atria Institute of Technology, Bangalore",
-    date: "Aug 2014 - June 2018",
-    percentage: "7.2 CGPA",
-    desc: "I completed my bachelor of engineering degree from Atria Institute of Technology, Bangalore. Where i completed my degree in Computer Science and Engineering.",
-    degree: "Bachelor of Engineering, Computer Science and Engineering",
+    img: "https://talloiresnetwork.tufts.edu/wp-content/uploads/KIIT-Logo.png",
+    school: "Kaling Institute of Industrial Technology , Bhubaneshwar",
+    date: "July 2015 - May 2019",
+    percentage: "7.42 CGPA",
+    desc: "I completed my B.Tech from Kalinga Institute of Idnustrial Technology, Bhubaneshwar in Electronics and Telecommunication Engineering.",
+    degree: "Bachelor of Technology, Electronics and Telecommunication Engineering",
   }
 ];
 

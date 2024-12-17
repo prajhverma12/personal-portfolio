@@ -15,7 +15,7 @@ import {
 //   SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
-import RajImg from "../../images/RajImage.jpeg";
+import PrajImg from "../../images/PrajImage.jpg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -50,7 +50,7 @@ const HeroSection = () => {
           </HeroLeftContainer>
 
           <HeroRightContainer id="Right">
-            <Img src={RajImg} alt="hero-image" />
+            <Img src={PrajImg} alt="hero-image" />
           </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
