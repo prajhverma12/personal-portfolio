@@ -1,19 +1,19 @@
 export const Bio = {
-  name: "Raj Kumar Mahto",
+  name: "Prajwal Verma",
   roles: [
+    "Software Developer",
+    "Data Analyst",
     "Backend Developer",
-    "Node JS Developer",
-    "Java Developer",
-    "Python Developer"
+    "Springboot API Developer "
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rajmahato111",
-  resume: "https://drive.google.com/file/d/1E6jdU0Ow5TdXdTfjEdwKhIvNunSexlcj/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rajmahato111/",
-  twitter: "https://x.com/rajmahato111",
-  insta: "https://www.instagram.com/rajmahato111/",
-  facebook: "https://www.facebook.com/rajmahato111/",
+    "With over five years of experience as a software engineer, I have a proven track record of building high-performance APIs, migrating complex infrastructures to cloud environments, and leveraging big data frameworks like Hadoop to drive meaningful business outcomes. Currently, I am further expanding my expertise by pursuing a Master's in Management Information Systems, where I am focusing on data analysis,visualization, and the intersection of technology and business intelligence.",
+  github: "https://github.com/prajhverma12",
+  resume: "",
+  linkedin: "https://www.linkedin.com/in/prajwal1206/",
+  twitter: "",
+  insta: "",
+  facebook: "",
 };
 
 export const skills = [
