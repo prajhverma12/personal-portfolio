@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import {
   Nav,
   NavLink,
@@ -17,6 +17,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { Bio } from "../../data/constants";
+import PrajImg from "../../images/PrajImage.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -31,6 +32,49 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
+      <img
+          src={PrajImg}
+          alt="Profile"
+          style={{
+            width: "150px",
+            height: "150px",
+            borderRadius: "50%",
+            objectFit: "cover",
+            marginBottom: "20px",
+          }}
+        />
+                {/* Name */}
+                <h2
+          style={{
+            color: "white",
+            marginBottom: "10px",
+            fontSize: "24px",
+            fontWeight: "600",
+          }}
+        >
+          Prajwal Verma
+        </h2>
+
+        {/* Social Media Icons */}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "16px",
+            marginBottom: "20px",
+          }}
+        >
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin size="2rem" color="white" />
+          </a>
+          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <FaGithub size="2rem" color="white" />
+          </a>
+          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+            <FaTwitter size="2rem" color="white" />
+          </a>
+        </div>
+
         <NavLogo to="/">
           <a
             href="/#"
@@ -38,7 +82,7 @@ const Navbar = () => {
               display: "flex",
               alignItems: "center",
               color: "white",
-              marginBottom: "20",
+              marginBottom: "20", 
               cursor: "pointer",
             }}
           >
