@@ -4,27 +4,25 @@ import styled from "styled-components";
 
 export const Nav = styled.div`
   background-color: ${({ theme }) => theme.card_light};
-  height: 80px;
+  width: 250px;  /* Adjust as needed */
+  height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  position: sticky;
+  justify-content: start;
+  position: fixed;
   top: 0;
+  left: 0;
   z-index: 10;
-  @media (max-width: 960px) {
-    trastion: 0.8s all ease;
   }
 `;
 export const NavbarContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
-  height: 60px;
-  z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1200px;
+  padding: 20px 0;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -44,17 +42,14 @@ export const Span = styled.div`
   font-size: 18px;
 `;
 export const NavItems = styled.ul`
-  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 32px;
-  padding: 0 6px;
+  justify-content: start;
+  gap: 24px;
   list-style: none;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  padding: 0;
+  width: 100%;
 `;
 
 export const NavLink = styled.a`
@@ -96,15 +91,11 @@ export const GitHubButton = styled.a`
 `;
 
 export const ButtonContainer = styled.div`
-  width: 80%;
-  height: 100%;
+  width: 100%;
   display: flex;
-  justify-content: end;
-  align-items: center;
-  padding: 0 6px;
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  justify-content: center;
+  margin-top: auto;
+  padding: 20px 0;
 `;
 
 export const MobileIcon = styled.div`
