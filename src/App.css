@@ -17,6 +17,11 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.main-content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 4px;
