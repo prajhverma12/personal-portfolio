@@ -48,10 +48,6 @@ const HeroSection = () => {
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
-
-          <HeroRightContainer id="Right">
-            <Img src={PrajImg} alt="hero-image" />
-          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>
