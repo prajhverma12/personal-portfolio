@@ -36,8 +36,12 @@ const Wrapper = styled.div`
 `;
 
 const MainContent = styled.div`
-  margin-left: 250px; /* Same width as the Nav */
   padding: 0px; /* Optional for inner spacing */
+
+  @media screen and (min-width: 769px) {
+    margin-left: 300px; /* Apply only on larger screens */
+  }
+
 `;
 
 function App() {
