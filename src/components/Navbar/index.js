@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useTheme } from "styled-components";
 import { DiCssdeck } from "react-icons/di";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import {
   Nav,
   NavLink,
@@ -17,6 +17,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { Bio } from "../../data/constants";
+import PrajImg from "../../images/PrajImage.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -31,20 +32,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
-          <a
-            href="/#"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              color: "white",
-              marginBottom: "20",
-              cursor: "pointer",
-            }}
-          >
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
-        </NavLogo>
+
         <MobileIcon>
           <FaBars
             onClick={() => {
@@ -53,19 +41,94 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
+          <img
+            src={PrajImg}
+            alt="Profile"
+            style={{
+              width: "150px",
+              height: "150px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              marginBottom: "10px",
+            }}
+          />
+          <h2
+            style={{
+              color: "white",
+              marginBottom: "5px",
+              fontSize: "24px",
+              fontWeight: "600",
+            }}
+          >
+            Prajwal Verma
+          </h2>
+
+          {/* Social Media Icons */}
+          <div
+            style={{
+              display: "flex",
+              gap: "16px",
+              marginBottom: "10px",
+            }}
+          >
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size="2rem" color="white" />
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaGithub size="2rem" color="white" />
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaTwitter size="2rem" color="white" />
+            </a>
+          </div>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
-        <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">
-            Github Profile
-          </GitHubButton>
-        </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
+            <img
+            src={PrajImg}
+            alt="Profile"
+            style={{
+              width: "150px",
+              height: "150px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              marginBottom: "10px",
+            }}
+          />
+          <h2
+            style={{
+              color: "white",
+              marginBottom: "5px",
+              fontSize: "24px",
+              fontWeight: "600",
+            }}
+          >
+            Prajwal Verma
+          </h2>
+
+          {/* Social Media Icons */}
+          <div
+            style={{
+              display: "flex",
+              gap: "16px",
+              marginBottom: "10px",
+            }}
+          >
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaLinkedin size="2rem" color="white" />
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaGithub size="2rem" color="white" />
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+              <FaTwitter size="2rem" color="white" />
+            </a>
+          </div>
             <MobileLink
               href="#about"
               onClick={() => {
@@ -106,18 +169,7 @@ const Navbar = () => {
             >
               Education
             </MobileLink>
-            <GitHubButton
-              style={{
-                padding: "10px 16px",
-                background: `${theme.primary}`,
-                color: "white",
-                width: "max-content",
-              }}
-              href={Bio.github}
-              target="_blank"
-            >
-              Github Profile
-            </GitHubButton>
+            
           </MobileMenu>
         )}
       </NavbarContainer>
