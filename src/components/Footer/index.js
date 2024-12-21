@@ -51,7 +51,7 @@ const Nav = styled.nav`
 const NavLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: color 0.2s ease-in-out;
   &:hover {
     color: ${({ theme }) => theme.primary};
@@ -108,9 +108,6 @@ function Footer() {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>

@@ -152,9 +152,9 @@ export const Span = styled.span`
 
 export const SubTitle = styled.div`
   font-size: 20px;
-  line-height: 32px;
-  margin-bottom: 42px;
-  color: ${({ theme }) => theme.text_primary + 95};
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: ${({ theme }) => theme.text_primary + 99};
 
   @media (max-width: 960px) {
     text-align: center;
@@ -173,12 +173,13 @@ export const ResumeButton = styled.a`
     text-decoration: none;
     width: 95%;
     max-width: 300px;
+    margin-top: 30px;
     text-align: center;
     padding: 16px 0;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: hsla(271, 100%, 50%, 1);
@@ -197,7 +198,7 @@ export const ResumeButton = styled.a`
     
     @media (max-width: 640px) {
         padding: 12px 0;
-        font-size: 18px;
+        font-size: 20px;
     } 
 
 `;

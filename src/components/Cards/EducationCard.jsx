@@ -34,7 +34,7 @@ const Span = styled.span`
 `;
 
 const Card = styled.div`
-  width: 650px;
+  width: 750px;
   border-radius: 10px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   padding: 12px 16px;
@@ -76,7 +76,7 @@ const Image = styled.img`
   height: 50px;
   background-color: #000;
   border-radius: 10px;
-  margin-top: 4px;
+  margin-top: 10px;
   @media only screen and (max-width: 768px) {
     height: 40px;
   }
@@ -124,6 +124,28 @@ const Grade = styled.div`
   }
 `;
 
+const Skills = styled.div`
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  margin-top: -10px;
+`;
+
+const ItemWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+`;
+
+const Skill = styled.div`
+  font-size: 15px;
+  font-weight: 400;
+  color: ${({ theme }) => theme.text_primary + 99};
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+`;
+
 const EducationCard = ({ education }) => {
   return (
     <Card>
@@ -141,6 +163,19 @@ const EducationCard = ({ education }) => {
       </Grade>
       <Description>
         <Span>{education.desc}</Span>
+        {education?.coursework && (
+          <>
+            <br />
+            <Skills>
+              <b>Coursework:</b>
+              <ItemWrapper>
+                {education?.coursework?.map((skill, index) => (
+                  <Skill key={index}>• {skill}</Skill>
+                ))}
+              </ItemWrapper>
+            </Skills>
+          </>
+        )}
       </Description>
     </Card>
   );

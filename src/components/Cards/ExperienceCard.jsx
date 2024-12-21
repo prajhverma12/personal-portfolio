@@ -31,12 +31,17 @@ const Span = styled.span`
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
+  margin-bottom: 10px;
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 5px;
+  }
 `;
 
 const Card = styled.div`
-  width: 650px;
+  width: 750px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   justify-content: space-between;
   position: relative;
@@ -44,7 +49,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   &:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
@@ -75,12 +80,13 @@ const Top = styled.div`
 `;
 
 const Image = styled.img`
-  height: 50px;
+  height: 60px;
   background-color: #000;
   border-radius: 10px;
   margin-top: 4px;
   @media only screen and (max-width: 768px) {
     height: 40px;
+    margin-top: 10px;
   }
 `;
 
@@ -100,8 +106,8 @@ const Role = styled.div`
 `;
 
 const Company = styled.div`
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -109,8 +115,8 @@ const Company = styled.div`
 `;
 
 const Date = styled.div`
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 80};
   @media only screen and (max-width: 768px) {
     font-size: 10px;
@@ -151,7 +157,9 @@ const ExperienceCard = ({ experience }) => {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
+        {experience?.desc && experience?.desc?.map((point, index) => (
+          <Span key={index}>● {point}</Span>
+        ))}
         {experience?.skills && (
           <>
             <br />
