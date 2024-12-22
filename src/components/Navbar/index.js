@@ -13,7 +13,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { Bio } from "../../data/constants";
-import PrajImg from "../../images/PrajImage.jpg";
+import PrajImg from "../../images/Praj1.jpg";
 
 
 const SocialMediaIcon = styled.a`
