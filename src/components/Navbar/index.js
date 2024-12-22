@@ -7,11 +7,7 @@ import {
   Nav,
   NavLink,
   NavbarContainer,
-  Span,
-  NavLogo,
   NavItems,
-  GitHubButton,
-  ButtonContainer,
   MobileIcon,
   MobileMenu,
   MobileLink,
@@ -92,7 +88,7 @@ const Navbar = () => {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#projects">Portfolio</NavLink>
           <NavLink href="#education">Education</NavLink>
         </NavItems>
         {isOpen && (

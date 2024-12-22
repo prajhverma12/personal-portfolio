@@ -18,41 +18,40 @@ const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Portfolio</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+        Explore my portfolio of innovative and impactful projects and certifications.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
-              All
+              ALL
             </ToggleButton>
           ) : (
             <ToggleButton value="all" onClick={() => setToggle("all")}>
-              All
+              ALL
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "web app" ? (
+          {toggle === "project" ? (
             <ToggleButton
               active
-              value="web app"
-              onClick={() => setToggle("web app")}
+              value="project"
+              onClick={() => setToggle("project")}
             >
-              WEB APP'S
+              PROJECTS
             </ToggleButton>
           ) : (
-            <ToggleButton value="web app" onClick={() => setToggle("web app")}>
-              WEB APP'S
+            <ToggleButton value="project" onClick={() => setToggle("project")}>
+              PROJECTS
             </ToggleButton>
           )}
           <Divider />
-          {/* {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-            :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-          } */}
+          {toggle === "certificate" ? 
+            <ToggleButton active value="certificate" onClick={() => setToggle('certificate')}>CERTIFICATES</ToggleButton>
+          : 
+            <ToggleButton value="certificate" onClick={() => setToggle('certificate')}>CERTIFICATES</ToggleButton>
+          }
           <Divider />
           {/* {toggle === 'react native' ?
             <ToggleButton active value="react native" onClick={() => setToggle('react native')}>React Native Application </ToggleButton>

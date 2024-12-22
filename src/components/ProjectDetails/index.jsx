@@ -67,7 +67,7 @@ const Image = styled.img`
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
-  margin-top: 30px;
+  margin-top: 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 `;
 
@@ -224,10 +224,10 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-            {project?.categoty == "paper" ? 'View Code' : 'View Confrence'}
+            {project?.category1 == "paper" ? 'View Code' : 'View Confrence'}
             </Button>
             <Button href={project?.webapp} target="new">
-            {project?.categoty == "paper" ? 'View Live App' : 'View Research Paper'}
+            {project?.category1 == "paper" ? 'View Live App' : 'View Research Paper'}
             </Button>
           </ButtonGroup>
         </Wrapper>

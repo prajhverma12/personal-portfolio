@@ -2,7 +2,6 @@ import styled from "styled-components";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHub from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { Bio } from "../../data/constants";
 

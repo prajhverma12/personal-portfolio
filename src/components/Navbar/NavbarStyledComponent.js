@@ -57,6 +57,7 @@ export const NavItems = styled.ul`
   padding: 0;
   width: 100%;
   height: 100%; /* Ensures vertical centering works */
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -69,7 +70,7 @@ export const NavLink = styled.a`
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 
-  :hover {
+  &:hover {
     color: ${({ theme }) => theme.primary};
   }
 
