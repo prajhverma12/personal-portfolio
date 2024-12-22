@@ -11,8 +11,6 @@ import {
   Title,
   Span,
   SubTitle,
-//   SocialMediaIcons,
-//   SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import PrajImg from "../../images/PrajImage.jpg";

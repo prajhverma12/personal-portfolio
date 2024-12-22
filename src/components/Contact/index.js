@@ -1,8 +1,15 @@
 import React from "react";
-import styled from "styled-components";
-import { useRef } from "react";
+import styled, { css } from 'styled-components';
+import { useRef, useState} from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
+
+
+const errorPlaceholderStyle = css`
+  &::placeholder {
+    color: red;
+  }
+`;
 
 const Container = styled.div`
   display: flex;
@@ -86,6 +93,7 @@ const ContactInput = styled.input`
   &:focus {
     border: 1px solid ${({ theme }) => theme.primary};
   }
+  ${({ hasError }) => hasError && errorPlaceholderStyle}
 `;
 
 const ContactInputMessage = styled.textarea`
@@ -132,12 +140,28 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [emailError, setEmailError] = useState('');
+  const [nameError, setNameError] = useState('');
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const email = form.current.from_email_id.value;
+    const name = form.current.from_name.value;
+
+    if (!email) {
+      setEmailError('Email is required');
+      return;
+    }
+
+    if (!name) {
+      setNameError('Name is required');
+      return;
+    }
+
+    setEmailError('');
+    setNameError('');
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -156,8 +180,9 @@ const Contact = () => {
       );
   };
 
+
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
@@ -165,8 +190,18 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email_id" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput
+            placeholder={emailError || "Your Email"}
+            name="from_email_id"
+            hasError={!!emailError}
+            onFocus={() => setEmailError('')}
+          />
+          <ContactInput
+            placeholder={nameError || "Your Name"}
+            name="from_name"
+            hasError={!!nameError}
+            onFocus={() => setNameError('')}
+          />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
