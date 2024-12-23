@@ -1,5 +1,6 @@
 import styled from "styled-components";
-// import _default from "../../themes/default";
+//import _default from "../../themes/default";
+//import background from "../../images/background.jpg";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -35,7 +36,6 @@ export const HeroBg = styled.div`
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-
   @media (max-width: 960px) {
     justify-content: center;
     padding: 0 0px;

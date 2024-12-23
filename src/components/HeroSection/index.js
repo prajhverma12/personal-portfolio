@@ -22,7 +22,7 @@ const HeroSection = () => {
     <div id="about">
       <HeroContainer>
         <HeroBg>
-          <HeroBgAnimation />
+          
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
