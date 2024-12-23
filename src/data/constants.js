@@ -337,7 +337,7 @@ export const projects = [
     member: [
       {
         name: "Prajwal Verma",
-        img: "",
+        img: "../images/Praj.jpeg",
       },
     ],
   },
@@ -359,7 +359,7 @@ export const projects = [
     member: [
       {
         name: "Prajwal Verma",
-        img: "",
+        img: "../images/Praj.jpeg",
       },
     ],
   },
@@ -380,7 +380,7 @@ export const projects = [
     member: [
       {
         name: "Prajwal Verma",
-        img: "",
+        img: "../images/Praj.jpeg",
       },
     ],
   },
@@ -401,7 +401,7 @@ export const projects = [
     member: [
       {
         name: "Prajwal Verma",
-        img: "",
+        img: "../images/Praj.jpeg",
       },
     ],
   },

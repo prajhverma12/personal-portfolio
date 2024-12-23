@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useLocation, useNavigate } from "react-router-dom";
-import { useTheme } from "styled-components";
 import { FaBars, FaLinkedin, FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
 import {
   Nav,
@@ -13,7 +11,7 @@ import {
   MobileLink,
 } from "./NavbarStyledComponent";
 import { Bio } from "../../data/constants";
-import PrajImg from "../../images/Praj1.jpg";
+import PrajImg from "../../images/Praj.jpeg";
 
 
 const SocialMediaIcon = styled.a`
@@ -26,9 +24,6 @@ const SocialMediaIcon = styled.a`
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-  const theme = useTheme();
-  const { pathname } = useLocation();
-  const navigate = useNavigate();
 
   return (
     <Nav>
