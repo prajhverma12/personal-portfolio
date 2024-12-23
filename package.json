@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://prajhverma12.github.io/",
+  "homepage": "https://prajhverma12.github.io/personal-portfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -51,6 +51,6 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.24.7",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.2.0"
   }
 }
