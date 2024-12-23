@@ -16,7 +16,6 @@ const Button = styled.button`
 `;
 const Card = styled.div`
   width: 330px;
-  height: 560px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
@@ -132,13 +131,9 @@ const ProjectCards = ({ project, setOpenModal }) => {
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
-        <Description>{project.description}</Description>
+        <Description>{project.description}
+        </Description>
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
       <Button>View Project</Button>
     </Card>
   );

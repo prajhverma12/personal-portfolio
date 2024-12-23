@@ -77,8 +77,7 @@ const index = () => {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          My work experience as a software engineer and working on different
-          companies and projects.
+        With 5 years of experience, I've worked with diverse teams on impactful projects, delivering robust APIs, cloud migrations, and data-driven solutions
         </Desc>
         <TimelineSection>
           <Timeline>
@@ -86,7 +85,7 @@ const index = () => {
               <TimelineItem key={index}>
                 <TimelineSeparator>
                   <TimelineDot variant="outlined" color="secondary" />
-                  {index !== experiences.length - 1 && (
+                  {index !== experiences.length  && (
                     <TimelineConnector style={{ background: "#854CE6" }} />
                   )}
                 </TimelineSeparator>

@@ -11,8 +11,6 @@ import {
   Title,
   Span,
   SubTitle,
-//   SocialMediaIcons,
-//   SocialMediaIcon,
   ResumeButton,
 } from "./HeroStyle";
 import PrajImg from "../../images/PrajImage.jpg";
@@ -24,7 +22,7 @@ const HeroSection = () => {
     <div id="about">
       <HeroContainer>
         <HeroBg>
-          <HeroBgAnimation />
+          
         </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer id="Left">
@@ -44,6 +42,7 @@ const HeroSection = () => {
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
+            <SubTitle>{Bio.description1}</SubTitle>
             <ResumeButton href={Bio.resume} target="display">
               Check Resume
             </ResumeButton>

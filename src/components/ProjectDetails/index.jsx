@@ -67,7 +67,7 @@ const Image = styled.img`
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
-  margin-top: 30px;
+  margin-top: 20px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 `;
 
@@ -206,7 +206,9 @@ const index = ({ openModal, setOpenModal }) => {
               <Tag>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{project?.description}</Desc>
+          <Desc>{project?.description?.map((desc, index) => (
+            <Desc key={index}>● {desc}</Desc> 
+          ))}</Desc>
           {project.member && (
             <>
               <Label>Members</Label>
@@ -215,20 +217,6 @@ const index = ({ openModal, setOpenModal }) => {
                   <Member>
                     <MemberImage src={member.img} />
                     <MemberName>{member.name}</MemberName>
-                    <a
-                      href={member.github}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <GitHub />
-                    </a>
-                    <a
-                      href={member.linkedin}
-                      target="new"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <LinkedIn />
-                    </a>
                   </Member>
                 ))}
               </Members>
@@ -236,10 +224,10 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-              View Code
+            {project?.category1 == "paper" ? 'View Code' : 'View Confrence'}
             </Button>
             <Button href={project?.webapp} target="new">
-              View Live App
+            {project?.category1 == "paper" ? 'View Live App' : 'View Research Paper'}
             </Button>
           </ButtonGroup>
         </Wrapper>
