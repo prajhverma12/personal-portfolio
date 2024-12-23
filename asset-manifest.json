@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/personal-portfolio/static/js/main.83fb0e4f.js",
+    "main.js": "/personal-portfolio/static/js/main.ed9af975.js",
     "static/media/wsn1.png": "/personal-portfolio/static/media/wsn1.058c72efb2e69548c232.png",
+    "static/media/Praj.jpeg": "/personal-portfolio/static/media/Praj.b8f849c037bfeda70073.jpeg",
     "static/media/wsn.png": "/personal-portfolio/static/media/wsn.4aa6ac61bb5ee230841b.png",
-    "static/media/Praj1.jpg": "/personal-portfolio/static/media/Praj1.ed73e0d21fabc39e096c.jpg",
     "static/media/MITX.png": "/personal-portfolio/static/media/MITX.456ad3e9586b702e8f22.png",
     "static/media/harvardX.png": "/personal-portfolio/static/media/harvardX.40ea9fe9270d700160ab.png",
-    "static/media/PrajImage.jpg": "/personal-portfolio/static/media/PrajImage.482f938b868f6b3aa937.jpg",
     "index.html": "/personal-portfolio/index.html",
     "main.bf538fe7.css.map": "/personal-portfolio/static/css/main.bf538fe7.css.map",
-    "main.83fb0e4f.js.map": "/personal-portfolio/static/js/main.83fb0e4f.js.map"
+    "main.ed9af975.js.map": "/personal-portfolio/static/js/main.ed9af975.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.83fb0e4f.js"
+    "static/js/main.ed9af975.js"
   ]
 }
