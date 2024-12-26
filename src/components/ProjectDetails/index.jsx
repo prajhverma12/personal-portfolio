@@ -209,7 +209,7 @@ const index = ({ openModal, setOpenModal }) => {
           <Desc>{project?.description?.map((desc, index) => (
             <Desc key={index}>● {desc}</Desc> 
           ))}</Desc>
-          {project.member && (
+          {/*project.member && (
             <>
               <Label>Members</Label>
               <Members>
@@ -221,13 +221,15 @@ const index = ({ openModal, setOpenModal }) => {
                 ))}
               </Members>
             </>
-          )}
+          )*/}
           <ButtonGroup>
-            <Button dull href={project?.github} target="new">
-            {project?.category1 === "paper" ? 'View Code' : 'View Confrence'}
-            </Button>
+            {
+              project?.github && ( <Button dull href={project?.github} target="new">
+                {(project?.category1 === "paper") ? 'View Confrence' : 'View Code'}
+              </Button> 
+            )}
             <Button href={project?.webapp} target="new">
-            {project?.category1 === "paper" ? 'View Live App' : 'View Research Paper'}
+            {project?.category === "certificate" ? 'View Certificate' : project?.category1 === 'paper' ? 'View Research Paper' : 'View Project'}
             </Button>
           </ButtonGroup>
         </Wrapper>

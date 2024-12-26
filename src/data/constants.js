@@ -412,8 +412,8 @@ export const projects = [
     tags: [],
     category: "project",
     category1: "paper",
-    webapp: "https://ieeexplore.ieee.org/document/8474826",
     github: "https://ieeexplore.ieee.org/xpl/conhome/8466240/proceeding",
+    webapp: "https://ieeexplore.ieee.org/document/8474826",
     member: [
       {
         name: "Prajwal Verma",
@@ -434,8 +434,8 @@ export const projects = [
     tags: [],
     category: "project",
     category1: "paper",
-    webapp: "https://ieeexplore.ieee.org/document/8668160",
     github: "https://ieeexplore.ieee.org/xpl/conhome/8663973/proceeding",
+    webapp: "https://ieeexplore.ieee.org/document/8668160",
     member: [
       {
         name: "Prajwal Verma",
@@ -448,15 +448,16 @@ export const projects = [
     title: "Harvard certified CS50’s Introduction to Computer Science",
     date: "Jan 2021 - Feb 2021",
     description: [
-      "Published a research paper on 5+ clustering mechanisms and routing protocols for Wireless Sensor Networks (WSN) in IEEE.",
-      "Explored various clustering and routing protocols, aiming to reduce energy consumption limitations by 40%.",
-      "Contributed on research on the DEEC-D protocol to address protocol limitations and improve the battery life of nodes by 50%."
+      "Explored fundamental concepts such as algorithms, data structures, abstraction, encapsulation, and software development.",
+      "Gained hands-on experience in programming with C, Python, JavaScript, SQL, and web development frameworks.",
+      "Tackled real-world problems through logical reasoning and efficient algorithm design.",
+      "Acquired an understanding of computational thinking, memory management, and computer architecture.",
+      "Developed practical applications, including games, web applications, and data-driven solutions.",
     ],
     image: require("../images/harvardX.png"),
     tags: [],
     category: "certificate",
     webapp: "https://courses.edx.org/certificates/320ddd05fc7244f8980d6aa42951c7c9",
-    github: "https://courses.edx.org/certificates/320ddd05fc7244f8980d6aa42951c7c9",
     member: [
       {
         name: "Prajwal Verma",
@@ -469,15 +470,16 @@ export const projects = [
     title: "MIT certified Introduction to Computer Science and Programming Using Python",
     date: "Apr 2018 - May 2018",
     description: [
-      "Published a research paper on 5+ clustering mechanisms and routing protocols for Wireless Sensor Networks (WSN) in IEEE.",
-      "Explored various clustering and routing protocols, aiming to reduce energy consumption limitations by 40%.",
-      "Contributed on research on the DEEC-D protocol to address protocol limitations and improve the battery life of nodes by 50%."
+      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
+      "Mastered Python for scripting, data analysis, and developing modular programs.",
+      "Explored algorithm design techniques, including recursion, sorting, and searching.",
+      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
+      "Applied mathematical models and computational methods to solve complex real-world problems."
     ],
     image: require("../images/MITX.png"),
     tags: [],
     category: "certificate",
     webapp: "https://courses.edx.org/certificates/115bedec14e9445e8cde9292f3f5211a",
-    github: "https://courses.edx.org/certificates/115bedec14e9445e8cde9292f3f5211a",
     member: [
       {
         name: "Prajwal Verma",
@@ -485,7 +487,25 @@ export const projects = [
       },
     ],
   },
-
+  {
+    id: 4,
+    title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
+    date: "Nov 2024 - Nov 2024",
+    description: [
+      "Built a robust drought prediction model using SAS EM, exploring Decision Trees, Regression, and Neural Networks, reducing the misclassification rate to 8%, with Tableau-based visualizations.",
+    ],
+    image: require("../images/wsn.png"),
+    tags: [],
+    category: "project",
+    category1: "webapp",
+    webapp: "https://github.com/prajhverma12/DroughtPrediction",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
 ];
 
 export const TimeLineData = [
