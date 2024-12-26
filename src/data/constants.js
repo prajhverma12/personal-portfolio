@@ -492,13 +492,83 @@ export const projects = [
     title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
     date: "Nov 2024 - Nov 2024",
     description: [
-      "Built a robust drought prediction model using SAS EM, exploring Decision Trees, Regression, and Neural Networks, reducing the misclassification rate to 8%, with Tableau-based visualizations.",
+      "Utilized SAS Enterprise Miner (EM) to perform clustering on meteorological data, enabling identification of distinct patterns relevant to drought prediction.",
+      "Explored multiple predictive models, including Decision Trees, Regression, and Neural Networks, to evaluate their performance.",
+      "Achieved the model with the least misclassification rate (reduced to 8%) through rigorous evaluation and optimization of algorithms.",
+      "Used Tableau to create comprehensive and interactive visualizations, providing clear insights into data trends and prediction outcomes.",
+      "Developed a data-driven approach for accurate drought prediction, ensuring actionable insights to aid in planning and resource allocation."
     ],
-    image: require("../images/wsn.png"),
+    image: require("../images/Map.png"),
     tags: [],
     category: "project",
     category1: "webapp",
     webapp: "https://github.com/prajhverma12/DroughtPrediction",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Red Hat Certified System Administrator",
+    date: "May 2018",
+    description: [
+      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
+      "Mastered Python for scripting, data analysis, and developing modular programs.",
+      "Explored algorithm design techniques, including recursion, sorting, and searching.",
+      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
+      "Applied mathematical models and computational methods to solve complex real-world problems."
+    ],
+    image: require("../images/RHCSA.png"),
+    tags: [],
+    category: "certificate",
+    webapp: "https://rhtapps.redhat.com/verify?certId=180-108-615",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Red Hat Certified System Specialist in Ansible Automation",
+    date: "June 2018",
+    description: [
+      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
+      "Mastered Python for scripting, data analysis, and developing modular programs.",
+      "Explored algorithm design techniques, including recursion, sorting, and searching.",
+      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
+      "Applied mathematical models and computational methods to solve complex real-world problems."
+    ],
+    image: require("../images/RHCSAnsible.png"),
+    tags: [],
+    category: "certificate",
+    webapp: "https://rhtapps.redhat.com/verify?certId=180-108-615",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Red Hat Certified System Specialist in Openshift Administration",
+    date: "June 2018",
+    description: [
+      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
+      "Mastered Python for scripting, data analysis, and developing modular programs.",
+      "Explored algorithm design techniques, including recursion, sorting, and searching.",
+      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
+      "Applied mathematical models and computational methods to solve complex real-world problems."
+    ],
+    image: require("../images/RHCS_Openshift.png"),
+    tags: [],
+    category: "certificate",
+    webapp: "https://rhtapps.redhat.com/verify?certId=180-108-615",
     member: [
       {
         name: "Prajwal Verma",
