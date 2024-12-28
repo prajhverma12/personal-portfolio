@@ -402,7 +402,7 @@ export const projects = [
   {
     id: 0,
     title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
-    date: "Nov 2024 - Nov 2024",
+    date: "Nov 2024",
     description: [
       "Data Clustering: Utilized SAS Enterprise Miner (EM) to perform clustering on meteorological data, enabling identification of distinct patterns relevant to drought prediction.",
       "Model Testing: Explored multiple predictive models, including Decision Trees, Regression, and Neural Networks, to evaluate their performance.",
@@ -469,7 +469,7 @@ export const projects = [
   {
     id: 3,
     title: "Harvard certified CS50’s Introduction to Computer Science",
-    date: "Jan 2021 - Feb 2021",
+    date: "Feb 2021",
     description: [
       "Explored fundamental concepts such as algorithms, data structures, abstraction, encapsulation, and software development.",
       "Gained hands-on experience in programming with C, Python, JavaScript, SQL, and web development frameworks.",
@@ -491,7 +491,7 @@ export const projects = [
   {
     id: 4,
     title: "MIT certified Introduction to Computer Science and Programming Using Python",
-    date: "Apr 2018 - May 2018",
+    date: "May 2018",
     description: [
       "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
       "Mastered Python for scripting, data analysis, and developing modular programs.",
@@ -569,6 +569,26 @@ export const projects = [
     tags: [],
     category: "certificate",
     webapp: "https://rhtapps.redhat.com/verify?certId=180-108-615",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Big Data and Cloud Computing Automation using (DevOps) Ansible",
+    date: "Nov 2024",
+    description: [
+      "Implemented a high-performance distributed computing system for Big Data Analytics using the Hadoop framework on RHEL.",
+      "Automated cloud computing services (SaaS, STaaS, CaaS, PaaS) using Ansible and Docker Container technologies. Integrated these solutions into a user-friendly web interface using Python CGI leading to a 25% improvement in user satisfaction.",
+    ],
+    image: require("../images/Map.png"),
+    tags: [],
+    category: "project",
+    category1: "webapp",
+    webapp: "https://github.com/prajhverma12/DroughtPrediction",
     member: [
       {
         name: "Prajwal Verma",
