@@ -401,6 +401,29 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
+    date: "Nov 2024 - Nov 2024",
+    description: [
+      "Data Clustering: Utilized SAS Enterprise Miner (EM) to perform clustering on meteorological data, enabling identification of distinct patterns relevant to drought prediction.",
+      "Model Testing: Explored multiple predictive models, including Decision Trees, Regression, and Neural Networks, to evaluate their performance.",
+      "Optimization: Achieved the model with the least misclassification rate (reduced to 8%) through rigorous evaluation and optimization of algorithms.",
+      "Visualization: Used Tableau to create comprehensive and interactive visualizations, providing clear insights into data trends and prediction outcomes.",
+      "Objective: Developed a data-driven approach for accurate drought prediction, ensuring actionable insights to aid in planning and resource allocation."
+    ],
+    image: require("../images/Map.png"),
+    tags: [],
+    category: "project",
+    category1: "webapp",
+    webapp: "https://github.com/prajhverma12/DroughtPrediction",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 1,
     title: "Energy Efficient Clustering Protocols: A Study",
     date: "Mar 2018 - Apr 2018",
     description: [
@@ -422,7 +445,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "A Survey on Hierarchical based Routing Protocols for Wireless Sensor Networks",
     date: "Jan 2018 - Feb 2018",
     description: [
@@ -444,7 +467,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Harvard certified CS50’s Introduction to Computer Science",
     date: "Jan 2021 - Feb 2021",
     description: [
@@ -466,7 +489,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "MIT certified Introduction to Computer Science and Programming Using Python",
     date: "Apr 2018 - May 2018",
     description: [
@@ -488,38 +511,15 @@ export const projects = [
     ],
   },
   {
-    id: 4,
-    title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
-    date: "Nov 2024 - Nov 2024",
-    description: [
-      "Utilized SAS Enterprise Miner (EM) to perform clustering on meteorological data, enabling identification of distinct patterns relevant to drought prediction.",
-      "Explored multiple predictive models, including Decision Trees, Regression, and Neural Networks, to evaluate their performance.",
-      "Achieved the model with the least misclassification rate (reduced to 8%) through rigorous evaluation and optimization of algorithms.",
-      "Used Tableau to create comprehensive and interactive visualizations, providing clear insights into data trends and prediction outcomes.",
-      "Developed a data-driven approach for accurate drought prediction, ensuring actionable insights to aid in planning and resource allocation."
-    ],
-    image: require("../images/Map.png"),
-    tags: [],
-    category: "project",
-    category1: "webapp",
-    webapp: "https://github.com/prajhverma12/DroughtPrediction",
-    member: [
-      {
-        name: "Prajwal Verma",
-        img: "../images/Praj.jpeg",
-      },
-    ],
-  },
-  {
     id: 5,
     title: "Red Hat Certified System Administrator",
     date: "May 2018",
     description: [
-      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
-      "Mastered Python for scripting, data analysis, and developing modular programs.",
-      "Explored algorithm design techniques, including recursion, sorting, and searching.",
-      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
-      "Applied mathematical models and computational methods to solve complex real-world problems."
+      "Linux Essentials: Demonstrated proficiency in fundamental Linux system administration tasks, including installation, configuration, and management of Red Hat Enterprise Linux environments.",
+      "User and Group Management: Skilled in creating and managing user accounts and groups, ensuring appropriate permissions and security settings.",
+      "Storage Configuration: Competent in configuring local storage using partitions and logical volumes to meet system requirements.",
+      "System Monitoring and Maintenance: Experienced in monitoring system performance, managing processes, and applying updates to maintain system integrity.",
+      "Service Management: Capable of managing system services, boot processes, and troubleshooting to ensure system availability and reliability.",
     ],
     image: require("../images/RHCSA.png"),
     tags: [],
@@ -537,11 +537,11 @@ export const projects = [
     title: "Red Hat Certified System Specialist in Ansible Automation",
     date: "June 2018",
     description: [
-      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
-      "Mastered Python for scripting, data analysis, and developing modular programs.",
-      "Explored algorithm design techniques, including recursion, sorting, and searching.",
-      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
-      "Applied mathematical models and computational methods to solve complex real-world problems."
+      "Ansible Proficiency: Validated ability to use Ansible for automating configuration management, application deployment, and task automation.",
+      "Playbook Development: Experienced in writing and managing Ansible playbooks to automate complex tasks across multiple systems.",
+      "System Configuration Automation: Skilled in automating system configurations to ensure consistency and compliance across IT environments.",
+      "Inventory Management: Proficient in managing Ansible inventories, including dynamic inventories, to efficiently target hosts and groups.",
+      "Troubleshooting Automation Issues: Capable of diagnosing and resolving issues related to Ansible automation to maintain seamless operations."
     ],
     image: require("../images/RHCSAnsible.png"),
     tags: [],
@@ -555,15 +555,15 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Red Hat Certified System Specialist in Openshift Administration",
     date: "June 2018",
     description: [
-      "Gained a solid understanding of computational problem-solving, algorithmic thinking, and programming principles.",
-      "Mastered Python for scripting, data analysis, and developing modular programs.",
-      "Explored algorithm design techniques, including recursion, sorting, and searching.",
-      "Worked with lists, dictionaries, tuples, and sets for efficient data handling.",
-      "Applied mathematical models and computational methods to solve complex real-world problems."
+      "OpenShift Cluster Management: Demonstrated expertise in installing, configuring, and managing Red Hat OpenShift Container Platform clusters.",
+      "Application Deployment: Skilled in deploying and managing applications on OpenShift, ensuring scalability and high availability.",
+      "Resource Management: Proficient in managing OpenShift resources, including projects, quotas, and limits, to optimize cluster performance.",
+      "Security Implementation: Experienced in implementing security measures such as role-based access control (RBAC) and network policies within OpenShift.",
+      "Monitoring and Logging: Capable of setting up monitoring and logging solutions to track cluster health and application performance."
     ],
     image: require("../images/RHCS_Openshift.png"),
     tags: [],
