@@ -584,11 +584,11 @@ export const projects = [
       "Implemented a high-performance distributed computing system for Big Data Analytics using the Hadoop framework on RHEL.",
       "Automated cloud computing services (SaaS, STaaS, CaaS, PaaS) using Ansible and Docker Container technologies. Integrated these solutions into a user-friendly web interface using Python CGI leading to a 25% improvement in user satisfaction.",
     ],
-    image: require("../images/Map.png"),
+    image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWbPAumsA2dzSxoOqOucXHa__Ra1CRF7yqVaN1l9J-a1HGU_l6H6tUxqG3qsokuKc2EK_9FquQfZTJ7Bcg8CTIXL6xlwPdVQ42OgI6eDH_8mLM-ZmGPHMfDciBKS5wix6rQAYvfZjNUTc/s1600/big-data-cloud-640x337.png",
     tags: [],
     category: "project",
     category1: "webapp",
-    webapp: "https://github.com/prajhverma12/DroughtPrediction",
+    webapp: "",
     member: [
       {
         name: "Prajwal Verma",
