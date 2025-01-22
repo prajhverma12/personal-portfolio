@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { FaBars, FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { FaBars, FaLinkedin, FaGithub, FaTwitter, FaFacebook,} from "react-icons/fa";
 import {
   Nav,
   NavLink,
@@ -29,14 +29,6 @@ const ProfileImage = styled.img`
   object-fit: cover;
   margin-bottom: 10px;
   border: 2px solid ${({ theme }) => theme.primary};
-`;
-
-const MobileImage = styled.img`
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
 `;
 
 const Navbar = () => {
