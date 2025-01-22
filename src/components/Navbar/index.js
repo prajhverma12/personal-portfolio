@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { FaBars, FaLinkedin, FaGithub, FaTwitter, FaFacebook } from "react-icons/fa";
+import { FaBars, FaLinkedin, FaGithub, FaTwitter, FaFacebook, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import {
   Nav,
   NavLink,
@@ -22,6 +22,23 @@ const SocialMediaIcon = styled.a`
   }
 `;
 
+const ProfileImage = styled.img`
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid ${({ theme }) => theme.primary};
+`;
+
+const MobileImage = styled.img`
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+`;
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
@@ -37,28 +54,41 @@ const Navbar = () => {
           />
         </MobileIcon>
         <NavItems>
-          <img
-            src={PrajImg}
-            alt="Profile"
+          <ProfileImage src={PrajImg} alt="Profile" />
+          <div
             style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "50%",
-              objectFit: "cover",
               marginBottom: "10px",
             }}
-          />
-          <h2
-            style={{
-              color: "white",
-              marginBottom: "5px",
-              fontSize: "24px",
-              fontWeight: "600",
-            }}
           >
-            Prajwal Verma
-          </h2>
-
+            <h2
+              style={{
+                color: "white",
+                fontSize: "26px",
+                fontWeight: "600",
+              }}
+            >
+              Prajwal Verma
+            </h2>
+            <p
+              style={{
+                color: "white",
+                fontSize: "16px",
+                marginBottom: "5px",
+                textAlign: "center",
+              }}
+            >
+              Chicago, IL, US
+            </p>
+            <p
+              style={{
+                color: "white",
+                fontSize: "16px",
+                textAlign: "center",
+              }}
+            >
+              <NavLink href="tel:+12177177320">+1 (217) 717-7320</NavLink>
+            </p>
+          </div>
           {/* Social Media Icons Web */}
           <div
               style={{
@@ -89,34 +119,47 @@ const Navbar = () => {
         </NavItems>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
-            <img
-            src={PrajImg}
-            alt="Profile"
+          <div
             style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "50%",
-              objectFit: "cover",
               marginBottom: "10px",
             }}
-          />
-          <h2
-            style={{
-              color: "white",
-              marginBottom: "5px",
-              fontSize: "24px",
-              fontWeight: "600",
-            }}
           >
-            Prajwal Verma
-          </h2>
-
+            <h2
+              style={{
+                color: "white",
+                fontSize: "26px",
+                fontWeight: "600",
+                paddingTop: "20px"
+              }}
+            >
+              Prajwal Verma
+            </h2>
+            <p
+              style={{
+                textAlign: "center",
+                color: "white",
+                fontSize: "15px",
+                marginBottom: "2px",
+              }}
+            >
+              Chicago, IL, US
+            </p>
+            <p
+              style={{
+                textAlign: "center",
+                color: "white",
+                fontSize: "15px",
+              }}
+            >
+              <MobileLink href="tel:+12177177320">+1 (217) 717-7320</MobileLink>
+            </p>
+          </div>
           {/* Social Media Icons Mobile */}
             <div
               style={{
                 display: "flex",
                 gap: "16px",
-                marginBottom: "10px",
+                marginBottom: "15px",
               }}
             >
               <SocialMediaIcon href={Bio.linkedin} target="_blank" rel="noopener noreferrer">

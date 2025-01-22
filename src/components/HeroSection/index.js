@@ -4,12 +4,15 @@ import {
   HeroBg,
   HeroLeftContainer,
   HeroInnerContainer,
+  HeroRightContainer,
+  Img,
   TextLoop,
   Title,
   Span,
   SubTitle,
   ResumeButton,
 } from "./HeroStyle";
+import PrajImg from "../../images/Praj.jpeg";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/constants";
 
@@ -43,6 +46,9 @@ const HeroSection = () => {
               Check Resume
             </ResumeButton>
           </HeroLeftContainer>
+          <HeroRightContainer id="Right">
+            <Img src={PrajImg} alt="hero-image" />
+          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>

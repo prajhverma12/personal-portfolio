@@ -75,11 +75,14 @@ export const HeroLeftContainer = styled.div`
 `;
 
 export const HeroRightContainer = styled.div`
-  width: 100%;
-  display: flex;
-  order: 2;
-  justify-content: end;
-  gap: 12px;
+  display: none;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    order: 2;
+    justify-content: end;
+    gap: 12px;
+  }
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -107,8 +110,8 @@ export const Img = styled.img`
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 250px;
+    max-height: 250px;
   }
 `;
 

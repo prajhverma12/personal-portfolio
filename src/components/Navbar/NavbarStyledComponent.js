@@ -96,7 +96,7 @@ export const MobileIcon = styled.div`
 export const MobileMenu = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 16px;
   position: fixed;
@@ -105,7 +105,7 @@ export const MobileMenu = styled.div`
   bottom: 0;
   right: 0;
   width: 80%;
-  padding: 12px 40px 24px 40px;
+  padding: 12px 50px 24px 50px;
   background: ${({ theme }) => theme.card_light};
 
   /* Sliding & Fading Effect */
@@ -149,6 +149,7 @@ export const MobileLink = styled.a`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  padding-bottom: 10px;
   :hover {
     color: ${({ theme }) => theme.primary};
   }

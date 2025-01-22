@@ -119,7 +119,9 @@ const ProjectCards = ({ project, setOpenModal }) => {
         <Description>{project.description}
         </Description>
       </Details>
-      <Button>View Project</Button>
+      <Button>
+      {project?.category === "certificate" ? 'View Certificate' : project?.category1 === 'paper' ? 'View Research Paper' : 'View Project'}
+      </Button>
     </Card>
   );
 };
