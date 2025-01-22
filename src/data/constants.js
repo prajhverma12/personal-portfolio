@@ -276,7 +276,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg",
-    role: "IT Analyst",
+    role: "Senior Software Engineer",
     company: "Tata Consultancy Services Pvt. Ltd.",
     date: "Jun 2022 - Dec 2023",
     desc: [
