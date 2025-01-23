@@ -11,7 +11,7 @@ export const Bio = {
   description1:
     `I believe that the fusion of technical proficiency and data-driven insights is critical to making informed, strategic decisions. As I continue to refine my skills in these areas, I am eager to connect with professionals who share my passion for innovation and are committed to exploring data-centric solutions that make an impact. Let's connect and explore opportunities to collaborate.`,
   github: "https://github.com/prajhverma12",
-  resume: "https://drive.google.com/file/d/109qIh1l9ugst0oafXgTcxrrc8gC7AavV/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1TUMamCSOnwR0hGdfG0K4AifGwOTeOj6B/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/prajwal1206/",
   twitter: "https://x.com/prjverma12?s=21",
   facebook: "https://www.facebook.com/12.praj",
