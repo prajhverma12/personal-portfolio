@@ -7,11 +7,11 @@ export const Bio = {
     "Backend Developer",
   ],
   description:
-    `With over 5+ years of experience as a software engineer, I have a proven track record of building high-performance APIs, migrating complex infrastructures to cloud environments, and leveraging big data frameworks like Hadoop to drive meaningful business outcomes. Currently, I am further expanding my expertise by pursuing a Master's in Management Information Systems, where I am focusing on data analysis,visualization, and the intersection of technology and business intelligence.`,
+    `With over 7 years of experience as a software engineer, I have a proven track record of building high-performance APIs, migrating complex infrastructures to cloud environments, and leveraging big data frameworks like Hadoop to drive meaningful business outcomes. I recently completed my Master's in Management Information Systems, where I focused on data analysis, visualization, and the intersection of technology and business intelligence—further strengthening my ability to bridge technical solutions with strategic business goals.`,
   description1:
     `I believe that the fusion of technical proficiency and data-driven insights is critical to making informed, strategic decisions. As I continue to refine my skills in these areas, I am eager to connect with professionals who share my passion for innovation and are committed to exploring data-centric solutions that make an impact. Let's connect and explore opportunities to collaborate.`,
   github: "https://github.com/prajhverma12",
-  resume: "https://drive.google.com/file/d/1TUMamCSOnwR0hGdfG0K4AifGwOTeOj6B/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1BJY8MzQgFPmpVjJSfXGwDnH4EkUACTTA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/prajwal1206/",
   twitter: "https://x.com/prjverma12?s=21",
   facebook: "https://www.facebook.com/12.praj",
@@ -275,7 +275,33 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tata_Consultancy_Services_Logo.svg",
+    img: "data:image/png;base64,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",
+    role: "Student Intern",
+    company: "University of Illinois at Springfield",
+    date: "Aug 2024 - May 2025",
+    desc: [
+      "Orchestrated logistics for 10+ campus events per semester, contributing to smooth execution and enhanced student engagement.",
+      "Monitored and managed inventory for daily operations serving 500+ students, reducing the stock discrepancies and effective tracking and restocking.",
+    ],
+    skills: [
+      "Event Planning",
+      "Inventory Management",
+      "Logistics Coordination",
+      "Team Collaboration",
+      "Customer Service",
+      "Adaptability",
+      "Microsoft Office Suite",
+      "Budgeting",
+      "Vendor Relations",
+      "Conflict Resolution",
+      "Event Promotion",
+      "Leadership",
+      "Customer Relationship Management (CRM)",
+    ],
+  }
+  {
+    id: 1,
+    img: "data:image/png;base64,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",
     role: "Senior Software Engineer",
     company: "Tata Consultancy Services Pvt. Ltd.",
     date: "Jun 2022 - Dec 2023",
@@ -300,7 +326,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: "https://fontmeme.com/images/hsbc-old-logo.png",
     role: "Software Engineer",
     company: "HSBC Software Developemt India Pvt. Ltd.",
@@ -328,7 +354,58 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
+    img: "https://www.google.com/url?sa=i&url=http%3A%2F%2Fdalapathi.com%2F&psig=AOvVaw3Hc7DxoFchaYZMrFJ4ezvk&ust=1749488178976000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKidlr-l4o0DFQAAAAAdAAAAABAE",
+    role: "Trainee Engineer",
+    company: "NTPC BHEL Power Projects Pvt. Ltd.",
+    date: "Jun 2018 - Jun 2019",
+    desc: [
+      "Analyzed operational and maintenance data from thermal power plant system, identifying inefficiencies that contributed to 10% reduction in unplanned downtime.",
+      "Compiled and visualized performance metrics using Excel and Tableau, supporting optimization strategies that improved equipment utilization by 15%.",
+    ],
+    skills: [
+      "Data Analysis",
+      "Excel",
+      "Tableau",
+      "Power Plant Operations",
+      "Performance Metrics",
+      "Equipment Utilization",
+      "Operational Efficiency",
+      "Maintenance Data Analysis",
+      "Problem Solving",
+      "Team Collaboration",
+      "Technical Documentation",
+      "Process Improvement",
+      "Thermal Power Systems",
+      "Data Visualization",
+    ],
+  },
+  {
+    id: 4,
+    img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fle.foode%2F&psig=AOvVaw1K_VgB8Ucz_365Mxlgkxz5&ust=1749488730678000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjmmMWn4o0DFQAAAAAdAAAAABAE",
+    role: "Full Stack Developer Intern",
+    company: "NTPC BHEL Power Projects Pvt. Ltd.",
+    date: "Jan 2018 - May 2018",
+    desc: [
+      "Implemented Razorpay payment gateway integration, reducing payment failures by 30% and improving checkout speed by 25%.",
+      "Compiled and visualized performance metrics using Excel and Tableau, supporting optimization strategies that improved equipment utilization by 15%.",
+    ],
+    skills: [
+      "Full Stack Development",
+      "Web Development",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "MongoDB",
+      "RESTful APIs",
+      "Git",
+      "Agile Methodology",
+      "Problem Solving",
+    ],
+  },
+  {
+    id: 5,
     img: require("../images/rcpl.jpeg"),
     role: "Intern",
     company: "Rcpl India Pvt. Ltd.",
@@ -401,6 +478,52 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "NeuroEase - An AI-Powered tool aid Neurodiverse Individuals",
+    date: "Mar 2025 - Apr 2025",
+    description: [
+      "Delivered LLM-integrated Chrome extension combining text summarization, text-to-speech, speech-to-text, and sentiment analysis, improving content accessibility for neurodivergent users and increasing task comprehension speeds by 35%",
+      "Implemented a user-friendly interface with React.js, enhancing user experience and engagement.",
+      "Utilized Python for backend development, ensuring efficient data processing and integration with LLMs.",
+      "Conducted user testing and feedback sessions, leading to iterative improvements and a 20% increase in user satisfaction.",
+
+    ],
+    image: require("../images/Map.png"),
+    tags: [],
+    category: "project",
+    category1: "webapp",
+    webapp: "https://github.com/prajhverma12/NeuroEase",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 0,
+    title: "NeuroEase - An AI-Powered tool aid Neurodiverse Individuals",
+    date: "Mar 2025 - Apr 2025",
+    description: [
+      "Delivered LLM-integrated Chrome extension combining text summarization, text-to-speech, speech-to-text, and sentiment analysis, improving content accessibility for neurodivergent users and increasing task comprehension speeds by 35%",
+      "Implemented a user-friendly interface with React.js, enhancing user experience and engagement.",
+      "Utilized Python for backend development, ensuring efficient data processing and integration with LLMs.",
+      "Conducted user testing and feedback sessions, leading to iterative improvements and a 20% increase in user satisfaction.",
+
+    ],
+    image: require("../images/Map.png"),
+    tags: [],
+    category: "project",
+    category1: "webapp",
+    webapp: "https://github.com/prajhverma12/NeuroEase",
+    member: [
+      {
+        name: "Prajwal Verma",
+        img: "../images/Praj.jpeg",
+      },
+    ],
+  },
+  {
+    id: 1,
     title: "Drought Prediction with Meteorological Data Using SAS Enterprise Miner",
     date: "Nov 2024",
     description: [
@@ -423,13 +546,15 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Energy Efficient Clustering Protocols: A Study",
     date: "Mar 2018 - Apr 2018",
     description: [
       "Performed extensive data analysis on sensor network performance, evaluating energy consumption patterns across multiple protocols to identify inefficiencies.",
       "Developed a new algorithm, DEEC-D, utilizing statistical data modelling and predictive analysis to improve energy efficiency by 30% in inter-cluster communication.",
-      "Validated the efficiency of DEEC-D through MATLAB simulations, demonstrating a 25% improvement in sensor lifespan and a 40% enhancement in the overall performance of WSNs, showcasing its practical applicability and impact on network optimization."
+      "Validated the efficiency of DEEC-D through MATLAB simulations, demonstrating a 25% improvement in sensor lifespan and a 40% enhancement in the overall performance of WSNs, showcasing its practical applicability and impact on network optimization.",
+      "Published a research paper on the findings, contributing to the academic discourse on energy-efficient protocols in Wireless Sensor Networks (WSN).",
+      "Contributed to the IEEE conference proceedings, sharing insights and advancements in clustering protocols for WSNs."
     ],
     image: require("../images/wsn.png"),
     tags: [],
@@ -445,13 +570,15 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "A Survey on Hierarchical based Routing Protocols for Wireless Sensor Networks",
     date: "Jan 2018 - Feb 2018",
     description: [
       "Published a research paper on 5+ clustering mechanisms and routing protocols for Wireless Sensor Networks (WSN) in IEEE.",
       "Explored various clustering and routing protocols, aiming to reduce energy consumption limitations by 40%.",
-      "Contributed on research on the DEEC-D protocol to address protocol limitations and improve the battery life of nodes by 50%."
+      "Contributed on research on the DEEC-D protocol to address protocol limitations and improve the battery life of nodes by 50%.",
+      "Conducted a comprehensive survey on hierarchical-based routing protocols, providing insights into their effectiveness in WSNs.",
+      "Analyzed the performance of different protocols, identifying key areas for improvement and optimization in energy efficiency."
     ],
     image: require("../images/wsn1.png"),
     tags: [],
@@ -467,7 +594,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Harvard certified CS50’s Introduction to Computer Science",
     date: "Feb 2021",
     description: [
@@ -489,7 +616,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "MIT certified Introduction to Computer Science and Programming Using Python",
     date: "May 2018",
     description: [
@@ -511,7 +638,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Red Hat Certified System Administrator",
     date: "May 2018",
     description: [
@@ -533,7 +660,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Red Hat Certified System Specialist in Ansible Automation",
     date: "June 2018",
     description: [
@@ -555,7 +682,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Red Hat Certified System Specialist in Openshift Administration",
     date: "June 2018",
     description: [
@@ -577,12 +704,14 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "Big Data and Cloud Computing Automation using (DevOps) Ansible",
     date: "Nov 2024",
     description: [
       "Implemented a high-performance distributed computing system for Big Data Analytics using the Hadoop framework on RHEL.",
       "Automated cloud computing services (SaaS, STaaS, CaaS, PaaS) using Ansible and Docker Container technologies. Integrated these solutions into a user-friendly web interface using Python CGI leading to a 25% improvement in user satisfaction.",
+      "Developed a comprehensive web application for Big Data Analytics, enabling users to perform data analysis and visualization tasks efficiently.",
+      "Utilized Python CGI to create a user-friendly interface for the web application, enhancing user experience and accessibility."
     ],
     image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWbPAumsA2dzSxoOqOucXHa__Ra1CRF7yqVaN1l9J-a1HGU_l6H6tUxqG3qsokuKc2EK_9FquQfZTJ7Bcg8CTIXL6xlwPdVQ42OgI6eDH_8mLM-ZmGPHMfDciBKS5wix6rQAYvfZjNUTc/s1600/big-data-cloud-640x337.png",
     tags: [],
