@@ -1,15 +1,16 @@
 export const Bio = {
   name: "Prajwal Verma",
   roles: [
-    "Tech Lead",
-    "Software Developer",
-    "Data Analyst",
-    "Backend Developer",
+    "Application Developer",
+    "Full Stack API Developer",
+    "Cloud Migration Specialist",
+    "Software Engineer",
+
   ],
   description:
-    `With over 7 years of experience as a software engineer, I have a proven track record of building high-performance APIs, migrating complex infrastructures to cloud environments, and leveraging big data frameworks like Hadoop to drive meaningful business outcomes. I recently completed my Master's in Management Information Systems, where I focused on data analysis, visualization, and the intersection of technology and business intelligence—further strengthening my ability to bridge technical solutions with strategic business goals.`,
+    `With 7+ years of experience as a Software Engineer, I specialize in building high-performance, enterprise-grade APIs, modernizing legacy systems, and engineering scalable microservices across banking, insurance, and telecom domains. I have led successful cloud migration and modernization initiatives on AWS, Azure, and containerized platforms, and contributed to distributed data processing using big-data frameworks such as Hadoop and Kafka to support high-volume, mission-critical applications.`,
   description1:
-    `I believe that the fusion of technical proficiency and data-driven insights is critical to making informed, strategic decisions. As I continue to refine my skills in these areas, I am eager to connect with professionals who share my passion for innovation and are committed to exploring data-centric solutions that make an impact. Let's connect and explore opportunities to collaborate.`,
+    `I recently completed my Master's in Management Information Systems, where I strengthened my expertise in data analysis, predictive modeling, visualization, and the alignment of technology with strategic business objectives. This blend of hands-on engineering experience and analytical decision-making enables me to design solutions that are not only technically robust but also closely aligned with business value, operational efficiency, and user impact. Let's connect and explore opportunities to collaborate and innovate.`,
   github: "https://github.com/prajhverma12",
   resume: "https://drive.google.com/file/d/1BJY8MzQgFPmpVjJSfXGwDnH4EkUACTTA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/prajwal1206/",

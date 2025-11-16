@@ -69,7 +69,7 @@ const Navbar = () => {
                 textAlign: "center",
               }}
             >
-              Chicago, IL, US
+              Charlotte, NC, US
             </p>
             <p
               style={{
