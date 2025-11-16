@@ -8,7 +8,7 @@ export const Bio = {
 
   ],
   description:
-    `With 7+ years of experience as a Software Engineer, I specialize in building high-performance, enterprise-grade APIs, modernizing legacy systems, and engineering scalable microservices across banking, insurance, and telecom domains. I have led successful cloud migration and modernization initiatives on AWS, Azure, and containerized platforms, and contributed to distributed data processing using big-data frameworks such as Hadoop and Kafka to support high-volume, mission-critical applications.`,
+    `With 8 years of experience as a Software Engineer, I specialize in building high-performance, enterprise-grade APIs, modernizing legacy systems, and engineering scalable microservices across banking, insurance, and telecom domains. I have led successful cloud migration and modernization initiatives on AWS, Azure, and containerized platforms, and contributed to distributed data processing using big-data frameworks such as Hadoop and Kafka to support high-volume, mission-critical applications.`,
   description1:
     `I recently completed my Master's in Management Information Systems, where I strengthened my expertise in data analysis, predictive modeling, visualization, and the alignment of technology with strategic business objectives. This blend of hands-on engineering experience and analytical decision-making enables me to design solutions that are not only technically robust but also closely aligned with business value, operational efficiency, and user impact. Let's connect and explore opportunities to collaborate and innovate.`,
   github: "https://github.com/prajhverma12",
